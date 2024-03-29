@@ -8,6 +8,6 @@ userrouter.post('/signin', userContoller.signin)
 
 userrouter.post('/getUserInfo',  userContoller.getUser)
 userrouter.post('/forgotpassword', userContoller.forgotPassword)
-userrouter.post('/resetpassword/:userId/:token', userContoller.resetPassword)
+userrouter.post('/resetpassword/userId/token', userContoller.resetPassword)
 
 export default userrouter
